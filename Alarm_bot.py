@@ -9,7 +9,7 @@ alerts_client = AlertsClient(token="") #write you token (https://alerts.in.ua/ap
 now = datetime.now()
 current_time = now.strftime("%H:%M")
 def main(message):
-    chat_id = "00000000" #write here the id of the channel or chat in which you want to write about the air alarm (https://t.me/getmyid_bot) for find id
+    chat_id = "00000000" #write here the id of the channel or chat in which you want to write about the air alarm (https://t.me/getmyid_bot) for find id(forward from channel for find channel id)
     check = 1
     while True:
         active_alerts = alerts_client.get_active_alerts()
