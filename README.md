@@ -3,7 +3,11 @@ You need to install the telebot library and alerts_in_ua from cmd as follows:
 pip install telebot
 pip install alerts_in_ua 
 Create a bot in TG via https://t.me/BotFather
+
+
 ![image](https://github.com/t0f1x/Alerts-in-ua-bot/assets/80917980/4b4840be-4ce0-48a0-bad7-4df4f2f9ca42)
+
+
 
 and also request a token from the map developer https://alerts.in.ua/api-request?
 ![123](https://github.com/t0f1x/Alerts-in-ua-bot/assets/80917980/92eb481b-bfd0-4867-884c-8a79dd11e97d)
