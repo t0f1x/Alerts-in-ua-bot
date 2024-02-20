@@ -6,11 +6,11 @@ from alerts_in_ua import Client as AlertsClient
 from datetime import datetime
 bot = TeleBot("") #write you token (create bot in https://t.me/BotFather)
 alerts_client = AlertsClient(token="") #write you token (https://alerts.in.ua/api-request?)
-now = datetime.now()
 def main(message):
     chat_id = "00000000" #write here the id of the channel or chat in which you want to write about the air alarm (https://t.me/getmyid_bot) for find id(forward from channel for find channel id)
     check = 1
     while True:
+        now = datetime.now()
         current_time = now.strftime("%H:%M")
         active_alerts = alerts_client.get_active_alerts()
         location_uid_alerts = active_alerts.get_alerts_by_location_uid('write you uid  (https://devs.alerts.in.ua/#modeluid)')
