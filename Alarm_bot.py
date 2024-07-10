@@ -25,7 +25,6 @@ def main(message):
         location_uid_alerts = active_alerts.get_alerts_by_location_uid('!!!!!write you uid  (https://devs.alerts.in.ua/#modeluid)')
         sql.execute(f"SELECT Sended FROM Alarms")
         check = sql.fetchone()
-        print(check[0])
         if location_uid_alerts != [] and check[0] != "T":
             bot.send_message(chat_id,f"!!!!!text about the start of the air alarm {current_time}")
             chech = "T"
