@@ -1,6 +1,6 @@
 Python must be installed on your computer
 You need to install the telebot library and alerts_in_ua from cmd as follows:
-pip install telebot /n
+pip install telebot 
 pip install alerts_in_ua 
 pip install db-sqlite3
 Create a bot in TG via https://t.me/BotFather
