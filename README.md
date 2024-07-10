@@ -17,4 +17,4 @@ Download the .py file and open with editor.
 Insert your IDs in the code, the places where it is necessary are indicated in the code,
 Run the file and go to the chat with bot, write /start,
 Your bot will write about the alarm in the channel whose id you entered in the chat_id field,
-Don't exit from the .py file. After the restart, you need to return to the chat with the bot and write /start, in the console you will see started by user.
+Don't exit from the .py file. After the restart, you need to return to the chat with the bot and write /start, in the console you will see 'started by user'.
