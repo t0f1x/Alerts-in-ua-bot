@@ -36,7 +36,7 @@ def main(message):
             sql.execute(f"UPDATE Alarms SET Sended = '{chech}'")
             db.commit()
         print("request allow")
-        time.sleep(12)
+        time.sleep(12) #If your server CPU-seconds are being used quickly, increase the time between requests
 @bot.message_handler(commands=["start"])
 def start(message):
     print("started by user")
